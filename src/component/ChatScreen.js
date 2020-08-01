@@ -40,7 +40,12 @@ function ChatScreen({ match }) {
     const messagesEndRef = useRef(null)
     const handleSend = (e) => {
         e.preventDefault();
-        setMessages([...messages, { message: input }])
+        if(input.trim() =='' || input == ''){
+
+        }else{
+            setMessages([...messages, { message: input }])
+        }
+        
         setInput('')
     }
     const scrollToBottom = () => {
