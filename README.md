@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-view live website [live] (https://app.netlify.com/sites/tinder-twin)
+view live website [live](https://app.netlify.com/sites/tinder-twin)
 
 ## Available Scripts
 
